@@ -1,10 +1,10 @@
-Blog Classy
+YourBlog 
 
 
 Introduction
 ---
 Writing Beautiful Blogs is not a Hard Task anymore. <br/>
-<strong>Blog Classy</strong> is a Featured Blog Post Application to Create, Edit, Delete posts.  
+<strong>YourBlog</strong> is a Featured Blog Post Application to Create, Edit, Delete posts.  
 In this app <strong >Markdown</strong> is also integrated to write a beautiful blog with pictures, links, and gif support.
 
 How does it work
@@ -48,7 +48,7 @@ Technology Stack
 
 Links
 ---
-##### See Live Running App on:  [Classy Blog](https://blogclassy.herokuapp.com/)
+##### See Live Running App on:  [YourBlog](https://yourblogsss.herokuapp.com/)
 
  
 

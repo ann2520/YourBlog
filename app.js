@@ -17,12 +17,18 @@ const methodOverride = require('method-override');
 require('./config/passport')(passport);
 
 // Connect to MongoDB
-const onlineDbLink = String("mongodb+srv://Mongodb:Mongodb@cluster0.t3dev.mongodb.net/Blogapp?retryWrites=true&w=majority") ;
-const localDbLink = "mongodb://localhost:27017/authenticateDB";
-mongoose
-  .connect(onlineDbLink, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log("MongoDB Connected"))
-  .catch((err) => console.log(err));
+mongoose.connect(
+  "mongodb://localhost:27017",
+  {
+    dbName: "blog",
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  },
+  (err) =>
+    err ? console.log(err) : console.log(
+      "Connected to blog database")
+);
+
 
 // EJS
 app.use(expressLayouts);
